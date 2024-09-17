@@ -19,6 +19,8 @@
 		EDFCA5CC2C9511950075136C /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCA5CB2C9511950075136C /* DatabaseHelper.swift */; };
 		EDFCA5CE2C9512B50075136C /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCA5CD2C9512B50075136C /* UserRepository.swift */; };
 		EDFCA5D02C9514610075136C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCA5CF2C9514610075136C /* User.swift */; };
+		EDFCA5D22C9515F50075136C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCA5D12C9515F50075136C /* UserViewModel.swift */; };
+		EDFCA5D42C951C8A0075136C /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCA5D32C951C8A0075136C /* NewItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		EDFCA5CB2C9511950075136C /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		EDFCA5CD2C9512B50075136C /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		EDFCA5CF2C9514610075136C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EDFCA5D12C9515F50075136C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		EDFCA5D32C951C8A0075136C /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				EDFCA5C62C950F650075136C /* HomeView.swift */,
+				EDFCA5D32C951C8A0075136C /* NewItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 		EDFCA5C52C950F520075136C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EDFCA5D12C9515F50075136C /* UserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -319,11 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFCA5D42C951C8A0075136C /* NewItemView.swift in Sources */,
 				EDFCA5CC2C9511950075136C /* DatabaseHelper.swift in Sources */,
 				EDFCA5C72C950F650075136C /* HomeView.swift in Sources */,
 				EDFCA5D02C9514610075136C /* User.swift in Sources */,
 				EDFCA5992C950F120075136C /* ContentView.swift in Sources */,
 				EDFCA5CE2C9512B50075136C /* UserRepository.swift in Sources */,
+				EDFCA5D22C9515F50075136C /* UserViewModel.swift in Sources */,
 				EDFCA5972C950F120075136C /* cursoSwift2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
